@@ -8,16 +8,18 @@ body {
 .btN {
   display: block;
   background-color: aqua;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 .btnDelete {
   display: block;
-  background-color: rgb(20, 200, 68);
+  background-color: rgb(200, 56, 20);
+  margin-bottom: 10px;
 }
 .togle {
   display: block;
   background-color: rgb(77, 31, 157);
   color: beige;
+  margin-bottom: 10px;
 }
 .wraper {
   width: auto;
@@ -28,4 +30,13 @@ body {
 }
 .title3 {
   color: rgb(28, 181, 61);
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  padding: 1rem;
+  text-align: center;
 }

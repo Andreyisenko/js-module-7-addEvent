@@ -17,8 +17,8 @@ function createElem(event) {
   btnDelete.textContent = "Delete";
   btnDelete.classList.add("btnDelete");
   wrap.append(btnDelete);
-  //   console.log(event);
-  //   console.log(event.currentTarget);
+  console.log(event.type);
+  console.log(event.currentTarget);
   const btnTogle = document.createElement("button");
   btnTogle.textContent = "TogleColor";
   btnTogle.classList.add("togle");
@@ -34,3 +34,16 @@ function createElem(event) {
     btnTogle.remove();
   }
 }
+
+// document.addEventListener("keydown", (event) => {
+//   console.log("Keydown: ", event.code);
+// });
+
+// document.addEventListener("keyup", (event) => {
+//   console.log("Keyup: ", event.key);
+// });
+
+const formA = document.createElement("form");
+console.log(formA);
+
+wrap.append(formA);
