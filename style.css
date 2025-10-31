@@ -1,0 +1,31 @@
+body {
+  background-color: burlywood;
+}
+.title {
+  color: aquamarine;
+  text-align: center;
+}
+.btN {
+  display: block;
+  background-color: aqua;
+  margin-bottom: 20px;
+}
+.btnDelete {
+  display: block;
+  background-color: rgb(20, 200, 68);
+}
+.togle {
+  display: block;
+  background-color: rgb(77, 31, 157);
+  color: beige;
+}
+.wraper {
+  width: auto;
+  height: auto;
+}
+.title2 {
+  color: rgb(22, 139, 139);
+}
+.title3 {
+  color: rgb(28, 181, 61);
+}
