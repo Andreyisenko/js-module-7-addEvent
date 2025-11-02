@@ -42,8 +42,19 @@ function createElem(event) {
 // document.addEventListener("keyup", (event) => {
 //   console.log("Keyup: ", event.key);
 // });
+const forM = document.querySelector(".form");
+forM.classList.add("subForm");
+// console.log(forM);
+forM.addEventListener("submit", sub);
 
-const formA = document.createElement("form");
-console.log(formA);
-
-wrap.append(formA);
+function sub(event) {
+  event.preventDefault();
+  console.log(event.target);
+  console.log(forM);
+  console.log(Array.isArray(event.currentTarget.elements));
+  console.log(event.currentTarget.elements.login.value);
+  console.log(event.currentTarget.elements.password.value);
+  //   console.log(event.target.children.login.value);
+  //   console.log(event.target.children.password.value);
+  //   console.log("form submit");
+}
