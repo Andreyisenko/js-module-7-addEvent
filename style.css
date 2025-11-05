@@ -55,3 +55,7 @@ body {
   color: blueviolet;
   background-color: rgb(8, 234, 95);
 }
+.form {
+  display: flex;
+  flex-direction: column;
+}
