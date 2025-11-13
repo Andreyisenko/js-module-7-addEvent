@@ -1,9 +1,9 @@
 const formA = document.querySelector("#discount-form");
-console.log(formA);
+// console.log(formA);
 formA.addEventListener("input", changeInput);
 const result = document.querySelector("#output");
 result.textContent = "";
-console.log(result);
+// console.log(result);
 
 function changeInput(event) {
   const stringSum = event.currentTarget.elements.price.value.trim();
@@ -32,3 +32,8 @@ function changeInput(event) {
 Сума знижки: ${sumDiscount} грн
 Ціна зі знижкою: ${allSum} грн`;
 }
+console.log(_.sum([1, 2, 5, 10]));
+console.log(_.shuffle([1, 2, 5, 10]));
+console.log(_.shuffle([1, 2, 5, 10]));
+console.log(_.shuffle([1, 2, 5, 10]));
+console.log(_.shuffle([1, 2, 5, 10]));
